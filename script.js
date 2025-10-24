@@ -1,7 +1,7 @@
 import * as THREE from 'https://unpkg.com/three@0.152.2/build/three.module.js';
 
 const urlParams = new URLSearchParams(window.location.search);
-const imageUrl = urlParams.get('image') || 'https://framerusercontent.com/images/vDeYQYFNhl2HPKJjZWj2WViUcw.jpg?width=320&height=180';
+cconst imageUrl = urlParams.get('image') || 'https://i.imgur.com/7GkFf0l.jpg'; // ← public image
 
 let scene, camera, renderer, particles, touchCanvas, touchCtx;
 
